@@ -101,3 +101,13 @@ Step 4:  Create the Client Virtual Machine
 Step 1: Assign a Static Private IP Address to the Domain Controller
 
 The Domain Controller currently uses a dynamic IP address, meaning its IP address could change whenever the VM is restarted or redeployed. We want to prevent this by assigning it a static IP address, so it remains consistent.  Since the Domain Controller will also be functioning as a DNS server, we will configure Client-1 to use the Domain Controller's static IP address as its DNS server. This will allow Client-1 to properly resolve domain names and communicate with the domain.
+
+- Go to “search” and type “Virtual Machines”
+- Open Domain Controller VM
+  - In the left column select Networking/Network Settings
+
+<img width="975" height="440" alt="image" src="https://github.com/user-attachments/assets/2e865a85-d2c5-4692-8bed-6031a3356bd3" />
+
+- Click on the vNIC (arrow is pointing to it)
+- At the bottom of the screen click on “ipconfig1”
+- Under Private IP address settings, select “Static”, click “Save”
