@@ -59,6 +59,16 @@ Step 1:  Create a Resource Group.
 - Select “Review & Create”, then “Create”
 <img width="975" height="493" alt="image" src="https://github.com/user-attachments/assets/5256300e-bcff-4261-8bfb-8dfdd06f8e41" />
 
+Step 2:  Create a Virtual Network and Subnet.
+
+- Go to “search” again and type “Virtual Network”
+- Select “Create”
+  - Resource Group*:  Active-Directory
+  - Virtual network name*:  Active-Directory-Vnet
+<img width="975" height="495" alt="image" src="https://github.com/user-attachments/assets/54fe2d77-3445-46c3-b846-01b0f2d395fc" />
+
+
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
