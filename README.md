@@ -24,8 +24,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Phase 1: Prepare the Azure Infrastructure
   - Create an Azure Resource Group
-- Step 3
-- Step 4
+  - Create a Virtual Network and Subnet
+  - Create the Domain Controller Virtual Machine
+  - Create the Client Virtual Machine
+
 
 <h2>Deployment and Configuration Steps</h2>
 
