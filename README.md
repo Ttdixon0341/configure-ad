@@ -239,7 +239,7 @@ Step 2: Verify User Account Creation
 
 
 
-At the end of this deployment, we will have:
+<h3>At the end of this deployment, we will have:<h3>
 - A functioning Windows Server 2022 Domain Controller hosted in Azure.
 - Active Directory Domain Services installed and configured.
 - A new Active Directory forest and domain (mydomain.com).
