@@ -106,7 +106,7 @@ The Domain Controller currently uses a dynamic IP address, meaning its IP addres
 - Open Domain Controller VM
   - In the left column select Networking/Network Settings
 
-<img width="975" height="440" alt="image" src="https://github.com/user-attachments/assets/2e865a85-d2c5-4692-8bed-6031a3356bd3" />
+<img width="1920" height="866" alt="Screenshot 2026-10-29 153209" src="https://github.com/user-attachments/assets/e0bc7063-70b7-49df-be92-9fbda70052b2" />
 
 - Click on the vNIC (arrow is pointing to it)
 - At the bottom of the screen click on “ipconfig1”
