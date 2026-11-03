@@ -111,3 +111,14 @@ The Domain Controller currently uses a dynamic IP address, meaning its IP addres
 - Click on the vNIC (arrow is pointing to it)
 - At the bottom of the screen click on “ipconfig1”
 - Under Private IP address settings, select “Static”, click “Save”
+
+Step 2: Temporarily Disable Windows Firewall on the Domain Controller
+
+We will temporarily disable Windows Firewall on the virtual machine to simplify network connectivity testing within the lab environment. This will help eliminate firewall restrictions as a potential cause of connectivity issues while testing communication between the virtual machines.
+Note: This is strictly for lab testing purposes.  NEVER do this in real life.
+
+- Remotely log-in to Domain Controller VM via public IP address via Remove Desktop
+- Right-click the Start Menu, select ‘Run’ and type “wf.msc”
+- Click on “Windows Defender Firewall Properties”
+  - Firewall state:  OFF
+  - Select “Apply” then “OK”
