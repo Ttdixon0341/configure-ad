@@ -47,7 +47,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
 <h2>Phase 1: Prepare the Azure Infrastructure</h2>
 
 Step 1:  Create a Resource Group.
