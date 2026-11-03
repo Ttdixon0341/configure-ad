@@ -82,3 +82,17 @@ Step 3:  Create the Domain Controller VM
   - Virtual Network*:  Active-Directory-Vnet
   - Subnet*:  default – 10.0.0.0/24
   - Select “Review & Create”, then “Create”
+
+Step 4:  Create the Client Virtual Machine
+
+- Go to “search” and type “Virtual Machines”
+  - Resource group*:  Active-Directory
+  - Virtual machine name*:  Client-1
+  - Region*:  (US) East US (must be the same Region as your virtual network)
+  - Image*:  Windows 11 Pro, version 26H2
+    - (you might have to change the Size* choose anything with 2 vcpus)
+  - Select a Username and Password
+  - Select the check boxes at the bottom, then select “Next” TWICE (going to Networking tab)
+  - Virtual Network*:  Active-Directory-Vnet
+  - Subnet*:  default – 10.0.0.0/24
+  - Select “Review & Create”, then “Create”
