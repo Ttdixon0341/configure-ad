@@ -49,7 +49,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Phase 1: Prepare the Azure Infrastructure</h2>
 
-Step 1:  Create a Resource Group.
+Step 1:  Create an Azure Resource Group.
 
 - Within “Search”, type “Resource Group”
 - Select “Create”
