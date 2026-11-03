@@ -122,3 +122,25 @@ Note: This is strictly for lab testing purposes.  NEVER do this in real life.
 - Click on “Windows Defender Firewall Properties”
   - Firewall state:  OFF
   - Select “Apply” then “OK”
+
+Step 3: Configure Client-1 to Use the Domain Controller as Its DNS Server
+
+Since the Domain Controller is also functioning as a DNS server, Client-1 needs to use it to resolve domain names and locate network resources. This allows Client-1 to communicate with the Domain Controller, find the Active Directory domain, and successfully join the domain.
+
+- Obtain Domain-Controller private IP address
+- Open Client-1 VM
+  - In the left column select Networking/Network Settings
+  - Click on the vNIC (like we did before with Domain-Controller)
+  - In the left column click on “DNS servers”
+  - Click “custom”
+  - Within ‘Custom DNS servers’ put in the Domain-Controller private IP address
+- Restart Client-1 VM (this allows all changes to take effect)
+- Remotely log into to Client-1 VM
+- Open Powershell and ping Domain-Controller
+  - Type:  ping <Domain-Controller private ip address>
+
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/f79933cb-b752-4f6f-b26f-2165c8e58e94" />
+
+- Now type:  ipconfig /all
+  - At the bottom it should read ‘DNS Servers. . . . .’ and show the Domain-Controller private IP address (confirming it has been changed)
+
