@@ -182,3 +182,48 @@ You will create a Domain Admin within the domain
 - Right click on mydomain.com/New/Organizational Unit
 
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/048afeef-7ceb-47ed-8046-19644ef68e01" />
+
+- Name:  _EMPLOYEES
+- Create a second Organizational Unit (OU) and name it:  _ADMINS
+
+Step 4: Create a Domain Administrator Account
+
+- Right-click _ADMINS/New/User
+  - Follow the prompts to create the user
+- Right-click on the new users account, select Properties
+  - Select ‘Member of’ tab
+  - Click ‘Add’
+  - Inside ‘Enter the object names to select’ type in “domain admins”
+  - Click ‘Check Names’, click OK.
+- Log out of Domain-Controller VM and log back in with your admin user.
+  - mydomain.com\<admin user>
+
+<h2>Phase 4: Join Client-1 to the Domain</h2>
+
+Joining Client-1 to the domain allows domain user accounts to authenticate and access the machine. This means authorized domain users can log in to Client-1 remotely using Remote Desktop Protocol (RDP), provided they have the appropriate permissions. It also allows user accounts and access policies to be centrally managed through Active Directory.
+
+Step 1: Join Client-1 to the Active Directory Domain
+
+- Log into Client-1 VM
+- Right-click Start/System
+- Scroll down and select ‘Domain or Workgroup’
+- Under ‘Computer Name’ tab click ‘Change’
+- Select ‘Domain’ and change the name to ‘mydomain.com’, hit OK
+  - Because only an admin users can make these changes, use your new admin user to authorize these changes.
+
+Step 2: Configure Remote Desktop Access for Domain Users
+
+- Log into Client-1 as your admin user
+- Right-click Start/System
+- Scroll down, select ‘Remove Desktop’, then ‘Desktop Users’
+- Click ‘Add’.  type: “domain users”. Click ‘Check Names’, click OK
+
+(Normally you’d want to do this with Group Policy that allows you to change many systems at once)
+
+<h2>Phase 5: Create and Manage Domain User Accounts</h2>
+
+Step 1: Create Multiple Domain User Accounts Using PowerShell
+
+- Log into Domain-Controller as a user admin
+- Open Powershell ISE as an administrator
+- Paste Script into Powershell ISE and run the script
