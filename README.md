@@ -166,3 +166,19 @@ Step 2: Promote the Server to a Domain Controller
 
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/ef70dafa-7822-43e7-901c-d2e960d12b45" />
 
+- Click “Add a new forest"
+- Root domain name:  mydomain.com
+- Keep clicking next, then Install.
+- Restart Domain-Controller VM
+- Now that the AD is a DC, we have to verify that we want to log in as a domain user.
+  - Username:  mydomain.com\<your user name>
+
+Step 3: Create Organizational Units (OUs)
+
+You will create a Domain Admin within the domain
+
+- Return to Domain-Controller VMm
+- Go to Start/Windows Administrative Tools/Active Directory Users and Computers
+- Right click on mydomain.com/New/Organizational Unit
+
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/048afeef-7ceb-47ed-8046-19644ef68e01" />
