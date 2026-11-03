@@ -209,7 +209,8 @@ Step 1: Join Client-1 to the Active Directory Domain
 - Scroll down and select ‘Domain or Workgroup’
 - Under ‘Computer Name’ tab click ‘Change’
 - Select ‘Domain’ and change the name to ‘mydomain.com’, hit OK
-  - Because only an admin users can make these changes, use your new admin user to authorize these changes.
+
+(Because only an admin users can make these changes, use your new admin user to authorize these changes)
 
 Step 2: Configure Remote Desktop Access for Domain Users
 
@@ -227,3 +228,24 @@ Step 1: Create Multiple Domain User Accounts Using PowerShell
 - Log into Domain-Controller as a user admin
 - Open Powershell ISE as an administrator
 - Paste Script into Powershell ISE and run the script
+
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/13805173-ce59-40e4-a4d6-c4cdf144e9e2" />
+
+Step 2: Verify User Account Creation
+
+- Return to Active Directory Users and Computers/mydomain.com/_EMPLOYEES and see all the additional users that have been added
+  - Username:  <username>
+  - Password:  Password1 (all added users from the script will have this password)
+
+At the end of this deployment, we will have:
+- A functioning Windows Server 2022 Domain Controller hosted in Azure.
+- Active Directory Domain Services installed and configured.
+- A new Active Directory forest and domain (mydomain.com).
+- A functioning DNS server integrated with Active Directory.
+- A Windows 11 client machine successfully joined to the domain.
+- Separate organizational units for employees and administrators.
+- A dedicated Domain Administrator account.
+- Multiple standard domain user accounts created through PowerShell.
+- Remote Desktop access configured for standard domain users.
+
+The completed environment will demonstrate how an organization can use Active Directory to centrally manage user accounts, authenticate users, organize resources, and control access to computers across a network.
