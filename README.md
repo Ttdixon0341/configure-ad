@@ -27,6 +27,22 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Create a Virtual Network and Subnet
   - Create the Domain Controller Virtual Machine
   - Create the Client Virtual Machine
+- Phase 2: Configure Network Connectivity
+  - Assign a Static Private IP Address to the Domain Controller
+  - Temporarily Disable Windows Firewall on the Domain Controller
+  - Configure Client-1 to Use the Domain Controller as Its DNS Server
+- Phase 3: Deploy and Configure Active Directory
+  - Install Active Directory Domain Services (AD DS)
+  - Promote the Server to a Domain Controller
+  - Create Organizational Units (OUs)
+  - Create a Domain Administrator Account
+- Phase 4: Join Client-1 to the Domain
+  - Join Client-1 to the Active Directory Domain
+  - Configure Remote Desktop Access for Domain Users
+- Phase 5: Create and Manage Domain User Accounts
+  - Create Multiple Domain User Accounts Using PowerShell
+  - Verify User Account Creation
+
 
 
 <h2>Deployment and Configuration Steps</h2>
