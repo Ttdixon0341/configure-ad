@@ -237,6 +237,8 @@ Step 2: Verify User Account Creation
   - Username:  <username>
   - Password:  Password1 (all added users from the script will have this password)
 
+
+
 At the end of this deployment, we will have:
 - A functioning Windows Server 2022 Domain Controller hosted in Azure.
 - Active Directory Domain Services installed and configured.
