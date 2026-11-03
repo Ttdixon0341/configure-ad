@@ -144,3 +144,25 @@ Since the Domain Controller is also functioning as a DNS server, Client-1 needs 
 - Now type:  ipconfig /all
   - At the bottom it should read ‘DNS Servers. . . . .’ and show the Domain-Controller private IP address (confirming it has been changed)
 
+<img width="1920" height="1080" alt="Screenshot 2026-10-30 081830" src="https://github.com/user-attachments/assets/968012cb-2a77-490b-9601-5f073086e018" />
+
+<h2>Phase 3: Deploy and Configure Active Directory</h2>
+
+Step 1: Install Active Directory Domain Services (AD DS)
+
+- RDP into Domain-Controller
+- Go to Search, type “Server Manager”
+- Click on “Add Roles and Features”
+- Keep clicking ‘Next’ until you come to Select Server Role
+- Select ‘Active Directory Domain Services’, select ‘Add Feaure’
+
+<img width="975" height="547" alt="image" src="https://github.com/user-attachments/assets/429a198d-a941-4954-95ab-7594ca52fc56" />
+
+- Keep selecting ‘Next’, then ‘Install’
+
+Step 2: Promote the Server to a Domain Controller
+
+- Return to Server Manager.  In the upper-right corner will be a flag.  Select it.  Click on “Promote this server to a domain controller”
+
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/ef70dafa-7822-43e7-901c-d2e960d12b45" />
+
