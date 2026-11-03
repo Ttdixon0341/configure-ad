@@ -95,3 +95,9 @@ Step 4:  Create the Client Virtual Machine
   - Virtual Network*:  Active-Directory-Vnet
   - Subnet*:  default – 10.0.0.0/24
   - Select “Review & Create”, then “Create”
+
+<h2>Phase 2: Configure Network Connectivity </h2>
+
+Step 1: Assign a Static Private IP Address to the Domain Controller
+
+The Domain Controller currently uses a dynamic IP address, meaning its IP address could change whenever the VM is restarted or redeployed. We want to prevent this by assigning it a static IP address, so it remains consistent.  Since the Domain Controller will also be functioning as a DNS server, we will configure Client-1 to use the Domain Controller's static IP address as its DNS server. This will allow Client-1 to properly resolve domain names and communicate with the domain.
