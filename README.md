@@ -67,25 +67,18 @@ Step 2:  Create a Virtual Network and Subnet.
   - Virtual network name*:  Active-Directory-Vnet
 <img width="975" height="495" alt="image" src="https://github.com/user-attachments/assets/54fe2d77-3445-46c3-b846-01b0f2d395fc" />
 
+- Select “Review & Create”, then “Create”
 
+Step 3:  Create the Domain Controller VM
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- Go to “search” and type “Virtual Machines”
+  - Resource group*:  Active-Directory
+  - Virtual machine name*:  Domain-Controller
+  - Region*:  (US) East US (must be the same Region as your virtual network)
+  - Image*:  Windows Server 2022 Datacenter: Azure Edition Hotpatch
+    - (you might have to change the Size* choose anything with 2 vcpus)
+  - Select a Username and Password
+  - Select the check boxes at the bottom, then select “Next” TWICE (going to Networking tab)
+  - Virtual Network*:  Active-Directory-Vnet
+  - Subnet*:  default – 10.0.0.0/24
+  - Select “Review & Create”, then “Create”
