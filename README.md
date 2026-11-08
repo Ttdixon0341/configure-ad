@@ -183,13 +183,23 @@ Step 3: Configure Client-1 to Use the Domain Controller as Its DNS Server
 
 Since the Domain Controller is also functioning as a DNS server, Client-1 needs to use it to resolve domain names and locate network resources. This allows Client-1 to communicate with the Domain Controller, find the Active Directory domain, and successfully join the domain.
 
-- Obtain Domain-Controller private IP address
-- Open Client-1 VM
+- Go to “search” and type “Virtual Machines”
+- Open DC-1 by clicking on the name
+- Write down DC-1 private IP address
+<br><br>
+<img width="1860" height="932" alt="Screenshot 2026-11-08 102413" src="https://github.com/user-attachments/assets/a72d174e-349d-4b99-b115-c3dadb9851ed" />
+<br><br>
+
+- Open Client-1 by clicking on the name
 - In the left column select Networking/Network Settings
-- Click on the vNIC (like we did before with Domain-Controller)
+- Click on the vNIC (like we did before with DC-1)
 - In the left column click on “DNS servers”
 - Click “custom”
-- Within ‘Custom DNS servers’ put in the Domain-Controller private IP address
+- Within ‘Custom DNS servers’ put in the DC-1 private IP address, click Apply
+<br><br>
+<img width="1860" height="1080" alt="Screenshot 2026-11-08 102914" src="https://github.com/user-attachments/assets/56bc676c-d4ae-4f45-8c58-11de60ec9110" />
+<br><br>
+
 - Restart Client-1 VM (this allows all changes to take effect)
 - Remotely log into to Client-1 VM
 - Open Powershell and type:  ping <Domain-Controller private ip address> to the ping Domain-Controller
