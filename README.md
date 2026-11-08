@@ -234,10 +234,14 @@ Step 1: Install Active Directory Domain Services (AD DS)
 
 - Keep clicking ‘Next’ until you come to Server Role
 - Select ‘Active Directory Domain Services’, select ‘Add Feature', hit Next
+<br><br>
+<img width="1785" height="1018" alt="Screenshot 2026-11-08 114938" src="https://github.com/user-attachments/assets/8c16993a-4570-434c-bd4e-19481693ce48" />
+<br><br>
+
 - Select the box that says "Restart the destination server automatically if required"
 - Hit Install
 <br><br>
-<img width="1785" height="1018" alt="Screenshot 2026-11-08 114938" src="https://github.com/user-attachments/assets/8c16993a-4570-434c-bd4e-19481693ce48" />
+<img width="1785" height="1013" alt="Screenshot 2026-11-08 115337" src="https://github.com/user-attachments/assets/b1709220-28b6-4f62-abee-f84c840fcd25" />
 <br><br>
 
 Step 2: Promote the Server to a Domain Controller
