@@ -225,15 +225,23 @@ Since the Domain Controller is also functioning as a DNS server, Client-1 needs 
 
 Step 1: Install Active Directory Domain Services (AD DS)
 
-- RDP into Domain-Controller
-- Go to Search, type “Server Manager”
+- Remotely log into DC-1
+- Go to Search, type “Server Manager” and click on it.
 - Click on “Add Roles and Features”
+<br><br>
+<img width="1783" height="1018" alt="Screenshot 2026-11-08 114616" src="https://github.com/user-attachments/assets/a775a0f3-88b4-4ca7-aa51-22ceb950fe80" />
+<br><br>
+
 - Keep clicking ‘Next’ until you come to Select Server Role
 - Select ‘Active Directory Domain Services’, select ‘Add Feaure’
-
-<img width="975" height="547" alt="image" src="https://github.com/user-attachments/assets/429a198d-a941-4954-95ab-7594ca52fc56" />
+<br><br>
+<img width="1785" height="1018" alt="Screenshot 2026-11-08 114938" src="https://github.com/user-attachments/assets/627c892a-57ae-4fb2-845d-8db54f1ee0ba" />
+<br><br>
 
 - Keep selecting ‘Next’, then ‘Install’
+<br><br>
+<img width="1785" height="1013" alt="Screenshot 2026-11-08 115337" src="https://github.com/user-attachments/assets/36254003-226b-4aa3-9398-ee153fc49949" />
+<br><br>
 
 Step 2: Promote the Server to a Domain Controller
 
