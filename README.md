@@ -92,6 +92,9 @@ Step 3:  Create the Domain Controller Virtual Machine
 - Virtual Network*:  Active-Directory-Vnet
 - Subnet*:  default – 10.0.0.0/24
 - Select “Review & Create”, then “Create”
+<br><br>
+<img width="1017" height="925" alt="Screenshot 2026-11-08 090733" src="https://github.com/user-attachments/assets/dd699a4c-2d45-4f66-8121-9443d139db0f" />
+<br><br>
 
 Step 4:  Create the Client Virtual Machine
 
