@@ -206,11 +206,11 @@ Since the Domain Controller is also functioning as a DNS server, Client-1 needs 
 <img width="1583" height="877" alt="Screenshot 2026-11-08 103244" src="https://github.com/user-attachments/assets/848d94e8-12f2-4f42-820e-8ef3ece489db" />
 <br><br>
 
-- Return to the Remote Desktop Connection (or RDP) and log back into to Client-1.
-- Within Client-1, click Search and type "powershell" and select it.
+- Return to the Remote Desktop Connection (or RDP) and log into to Client-1.
+- Within Client-1, click Search and type "windows powershell" and select it.
 - Type: Ping 10.0.0.4. You should get a result like this.
 <br><br>
-<img width="1791" height="1026" alt="Screenshot 2026-11-08 104730" src="https://github.com/user-attachments/assets/133b1ca9-fb5a-43d6-a738-09a9e2c11acf" />
+
 <br><br>
 
 - Now type:  ipconfig /all
