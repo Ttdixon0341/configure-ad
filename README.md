@@ -57,7 +57,7 @@ Step 1:  Create an Azure Resource Group.
   - Region*:  (US) East US (or whatever region you want)
 - Select “Review & Create”, then “Create”
 <br><br>
-<img width="975" height="493" alt="image" src="https://github.com/user-attachments/assets/5256300e-bcff-4261-8bfb-8dfdd06f8e41" />
+<img width="986" height="858" alt="Screenshot 2026-11-08 082337" src="https://github.com/user-attachments/assets/c059a9d6-8533-4627-8fe7-31f6d2581684" />
 <br><br>
 Step 2:  Create a Virtual Network and Subnet.
 
