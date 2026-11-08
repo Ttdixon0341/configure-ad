@@ -143,10 +143,15 @@ The Domain Controller currently uses a dynamic IP address, meaning its IP addres
 
 Step 2: Temporarily Disable Windows Firewall on the Domain Controller
 
-We will temporarily disable Windows Firewall on the virtual machine to simplify network connectivity testing within the lab environment. This will help eliminate firewall restrictions as a potential cause of connectivity issues while testing communication between the virtual machines.
+We will temporarily disable Windows Firewall on the virtual machine to simplify network connectivity testing within the lab environment. This will help eliminate firewall restrictions as a potential cause of connectivity issues while testing communication between the virtual machines.  To do this we must remotely log into DC-1. 
+
 Note: This is strictly for lab testing purposes.  NEVER do this in real life.
 
-- Remotely log-in to Domain Controller VM via public IP address via Remove Desktop
+- Click Search and type "Remote Desktop Connection". Click on it.
+<br><br>
+<img width="1035" height="972" alt="Screenshot 2026-11-08 094610" src="https://github.com/user-attachments/assets/f2ecf774-290f-40e5-9eed-779f809e812a" />
+<br><br>
+
 - Right-click the Start Menu, select ‘Run’ and type “wf.msc”
 - Click on “Windows Defender Firewall Properties”
   - Firewall state:  OFF
