@@ -158,6 +158,19 @@ Note: This is strictly for lab testing purposes.  NEVER do this in real life.
 <img width="1035" height="972" alt="Screenshot 2026-11-08 094610" src="https://github.com/user-attachments/assets/f2ecf774-290f-40e5-9eed-779f809e812a" />
 <br><br>
 
+- Put in DC-1 Public IP address, Click Connect
+<br><br>
+<img width="1242" height="811" alt="Screenshot 2026-11-08 095832" src="https://github.com/user-attachments/assets/d94f8807-0571-4b51-ac1e-f044c38a6868" />
+<br><br>
+
+- Click on "More choices", select "Use a different Account"
+- Username: labuser (or whatever you want to use)
+- Password: Cyberlab1234 (or whatever you want to use)
+- Hit OK
+<br><br>
+<img width="1231" height="916" alt="Screenshot 2026-11-08 100121" src="https://github.com/user-attachments/assets/3d8cfb59-2998-4e0e-a22a-c4b5c64c1696" />
+<br><br>
+
 - Right-click the Start Menu, select ‘Run’ and type “wf.msc”
 - Click on “Windows Defender Firewall Properties”
   - Firewall state:  OFF
