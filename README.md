@@ -43,8 +43,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Create Multiple Domain User Accounts Using PowerShell
   - Verify User Account Creation
 
-
-
 <h2>Deployment and Configuration Steps</h2>
 
 <h2>Phase 1: Prepare the Azure Infrastructure</h2>
@@ -77,11 +75,17 @@ Step 3:  Create the Domain Controller Virtual Machine
   - Virtual machine name*:  DC-1
   - Region*:  (US) East US (must be the same Region as your virtual network)
   - Image*:  Windows Server 2022 Datacenter: Azure Edition Hotpatch
-    - (you might have to change the Size* choose anything with 2 vcpus)
 <br><br>
 <img width="1020" height="877" alt="Screenshot 2026-11-08 084126" src="https://github.com/user-attachments/assets/07e95f09-0a50-4b5b-9f2f-3b546176a55b" />
 <br><br>
-  - Select a Username and Password
+
+  - Under Size* select "See all sizes".  Choose anything with 2 vCPUs or more and at least 8 GiB of RAM.
+  - Username: labuser (or whatever you want to use)
+  - Password: Cyberlab1234 (or whatever you want to use)
+<br><br>
+<img width="1043" height="876" alt="Screenshot 2026-11-08 085443" src="https://github.com/user-attachments/assets/b225439b-7326-4e8f-b7ea-dd194f3ddf39" />
+<br><br>
+
   - Select the check boxes at the bottom, then select “Next” TWICE (going to Networking tab)
   - Virtual Network*:  Active-Directory-Vnet
   - Subnet*:  default – 10.0.0.0/24
