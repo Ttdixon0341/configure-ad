@@ -232,15 +232,11 @@ Step 1: Install Active Directory Domain Services (AD DS)
 <img width="1783" height="1018" alt="Screenshot 2026-11-08 114616" src="https://github.com/user-attachments/assets/a775a0f3-88b4-4ca7-aa51-22ceb950fe80" />
 <br><br>
 
-- Keep clicking ‘Next’ until you come to Select Server Role
+- Keep clicking ‘Next’ until you come to Server Role
 - Select ‘Active Directory Domain Services’, select ‘Add Feaure’
-<br><br>
-<img width="1785" height="1018" alt="Screenshot 2026-11-08 114938" src="https://github.com/user-attachments/assets/627c892a-57ae-4fb2-845d-8db54f1ee0ba" />
-<br><br>
-
 - Keep selecting ‘Next’, then ‘Install’
 <br><br>
-<img width="1785" height="1013" alt="Screenshot 2026-11-08 115337" src="https://github.com/user-attachments/assets/36254003-226b-4aa3-9398-ee153fc49949" />
+<img width="1785" height="1018" alt="Screenshot 2026-11-08 114938" src="https://github.com/user-attachments/assets/8c16993a-4570-434c-bd4e-19481693ce48" />
 <br><br>
 
 Step 2: Promote the Server to a Domain Controller
