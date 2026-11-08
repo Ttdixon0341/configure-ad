@@ -99,16 +99,22 @@ Step 3:  Create the Domain Controller Virtual Machine
 Step 4:  Create the Client Virtual Machine
 
 - Go to “search” and type “Virtual Machines”
-  - Resource group*:  Active-Directory
-  - Virtual machine name*:  Client-1
-  - Region*:  (US) East US (must be the same Region as your virtual network)
-  - Image*:  Windows 11 Pro, version 26H2
-    - (you might have to change the Size* choose anything with 2 vcpus)
-  - Select a Username and Password
-  - Select the check boxes at the bottom, then select “Next” TWICE (going to Networking tab)
-  - Virtual Network*:  Active-Directory-Vnet
-  - Subnet*:  default – 10.0.0.0/24
-  - Select “Review & Create”, then “Create”
+- Click "+Create" and select "Virtual Machine"
+- Resource group*:  Active-Directory
+- Virtual machine name*:  Client-1
+- Region*:  (US) East US (must be the same Region as your virtual network)
+- Image*:  Windows 11 Pro, version 26H2
+<br><br>
+<img width="1043" height="872" alt="Screenshot 2026-11-08 091554" src="https://github.com/user-attachments/assets/3a5951f3-9aea-41c3-8df4-b3d78129b5e2" />
+<br><br>
+
+- Under Size* select "See all sizes".  Choose anything with 2 vCPUs or more and at least 8 GiB of RAM.
+- Username: labuser (or whatever you want to use)
+- Password: Cyberlab1234 (or whatever you want to use)
+- Select the check boxes at the bottom, then select “Next” TWICE (going to Networking tab)
+- Virtual Network*:  Active-Directory-Vnet
+- Subnet*:  default – 10.0.0.0/24
+- Select “Review & Create”, then “Create”
 
 <h2>Phase 2: Configure Network Connectivity </h2>
 
