@@ -200,9 +200,18 @@ Since the Domain Controller is also functioning as a DNS server, Client-1 needs 
 <img width="1860" height="1080" alt="Screenshot 2026-11-08 102914" src="https://github.com/user-attachments/assets/56bc676c-d4ae-4f45-8c58-11de60ec9110" />
 <br><br>
 
-- Restart Client-1 VM (this allows all changes to take effect)
-- Remotely log into to Client-1 VM
-- Open Powershell and type:  ping <Domain-Controller private ip address> to the ping Domain-Controller
+- Go back to “search” and type “Virtual Machines”
+- Select Client-1, select the 3 dots and hit "Restart" (this allows all changes to take effect)
+<br><br>
+<img width="1583" height="877" alt="Screenshot 2026-11-08 103244" src="https://github.com/user-attachments/assets/848d94e8-12f2-4f42-820e-8ef3ece489db" />
+<br><br>
+
+- Return to the Remote Desktop Connection (or RDP) and log back into to Client-1.
+- Within Client-1, click Search and type "powershell" and select it.
+- Type: Ping 10.0.0.4. You should get a result like this.
+<br><br>
+<img width="1791" height="1026" alt="Screenshot 2026-11-08 104730" src="https://github.com/user-attachments/assets/133b1ca9-fb5a-43d6-a738-09a9e2c11acf" />
+<br><br>
 
 
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/f79933cb-b752-4f6f-b26f-2165c8e58e94" />
