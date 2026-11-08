@@ -216,7 +216,7 @@ Since the Domain Controller is also functioning as a DNS server, Client-1 needs 
 <br><br>
 
 - Now type:  ipconfig /all
-- At the bottom it should read ‘DNS Servers. . . . .’ and show DC-1 private IP address (confirming it has been changed)
+- At the bottom it should read ‘DNS Servers. . . . .’ and show 10.0.0.4, DC-1 private IP address (confirming it has been changed)
 <br><br>
 <img width="1768" height="1031" alt="Screenshot 2026-11-08 113109" src="https://github.com/user-attachments/assets/09c58329-fd02-4f6c-8ffa-c8d2aede4e62" />
 <br><br>
