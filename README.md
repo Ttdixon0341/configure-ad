@@ -51,13 +51,14 @@ Step 1:  Create an Azure Resource Group.
 
 - Within “Search”, type “Resource Group”
 - Select “Create”
-  - Resource Group*:  Active-Directory
-  - Region*:  (US) East US (or whatever region you want)
+- Resource Group*:  Active-Directory
+- Region*:  (US) East US (or whatever region you want)
 - Select “Review & Create”, then “Create”
 <br><br>
 <img width="986" height="858" alt="Screenshot 2026-11-08 082337" src="https://github.com/user-attachments/assets/c059a9d6-8533-4627-8fe7-31f6d2581684" />
 <br><br>
 Step 2:  Create a Virtual Network and Subnet.
+<br><br>
 
 - Go to “search” again and type “Virtual Network”
 - Select “Create”
@@ -68,6 +69,7 @@ Step 2:  Create a Virtual Network and Subnet.
 <img width="1031" height="925" alt="Screenshot 2026-11-08 083022" src="https://github.com/user-attachments/assets/d8e233e5-2c64-467e-9133-6d5375777f06" />
 <br><br>
 Step 3:  Create the Domain Controller Virtual Machine
+<br><br>
 
 - Go to “search” and type “Virtual Machines”
 - Click "+Create" and select "Virtual Machine"
