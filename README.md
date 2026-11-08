@@ -49,6 +49,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 Step 1:  Create an Azure Resource Group.
 
+- Log into Microsoft Azure
 - Within “Search”, type “Resource Group”
 - Select “Create”
 - Resource Group*:  Active-Directory
@@ -111,10 +112,17 @@ Step 4:  Create the Client Virtual Machine
 - Under Size* select "See all sizes".  Choose anything with 2 vCPUs or more and at least 8 GiB of RAM.
 - Username: labuser (or whatever you want to use)
 - Password: Cyberlab1234 (or whatever you want to use)
+<br><br>
+<img width="1052" height="870" alt="Screenshot 2026-11-08 092300" src="https://github.com/user-attachments/assets/c6b36c34-a275-4929-be56-885695b82ea9" />
+<br><br>
+
 - Select the check boxes at the bottom, then select “Next” TWICE (going to Networking tab)
 - Virtual Network*:  Active-Directory-Vnet
 - Subnet*:  default – 10.0.0.0/24
 - Select “Review & Create”, then “Create”
+<br><br>
+<img width="1031" height="926" alt="Screenshot 2026-11-08 092525" src="https://github.com/user-attachments/assets/34770c19-7863-41da-a599-1eee25eb8d60" />
+<br><br>
 
 <h2>Phase 2: Configure Network Connectivity </h2>
 
