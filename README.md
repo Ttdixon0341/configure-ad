@@ -104,7 +104,7 @@ The Domain Controller currently uses a dynamic IP address, meaning its IP addres
 
 - Go to “search” and type “Virtual Machines”
 - Open Domain Controller VM
-  - In the left column select Networking/Network Settings
+- In the left column select Networking/Network Settings
 
 <img width="1920" height="866" alt="Screenshot 2026-10-29 153209" src="https://github.com/user-attachments/assets/e0bc7063-70b7-49df-be92-9fbda70052b2" />
 
@@ -129,20 +129,20 @@ Since the Domain Controller is also functioning as a DNS server, Client-1 needs 
 
 - Obtain Domain-Controller private IP address
 - Open Client-1 VM
-  - In the left column select Networking/Network Settings
-  - Click on the vNIC (like we did before with Domain-Controller)
-  - In the left column click on “DNS servers”
-  - Click “custom”
-  - Within ‘Custom DNS servers’ put in the Domain-Controller private IP address
+- In the left column select Networking/Network Settings
+- Click on the vNIC (like we did before with Domain-Controller)
+- In the left column click on “DNS servers”
+- Click “custom”
+- Within ‘Custom DNS servers’ put in the Domain-Controller private IP address
 - Restart Client-1 VM (this allows all changes to take effect)
 - Remotely log into to Client-1 VM
-- Open Powershell and ping Domain-Controller
-  - Type:  ping <Domain-Controller private ip address>
+- Open Powershell and type:  ping <Domain-Controller private ip address> to the ping Domain-Controller
+
 
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/f79933cb-b752-4f6f-b26f-2165c8e58e94" />
 
 - Now type:  ipconfig /all
-  - At the bottom it should read ‘DNS Servers. . . . .’ and show the Domain-Controller private IP address (confirming it has been changed)
+- At the bottom it should read ‘DNS Servers. . . . .’ and show the Domain-Controller private IP address (confirming it has been changed)
 
 <img width="1920" height="1080" alt="Screenshot 2026-10-30 081830" src="https://github.com/user-attachments/assets/968012cb-2a77-490b-9601-5f073086e018" />
 
@@ -188,13 +188,12 @@ You will create a Domain Admin within the domain
 
 Step 4: Create a Domain Administrator Account
 
-- Right-click _ADMINS/New/User
-  - Follow the prompts to create the user
+- Right-click _ADMINS/New/User and follow the prompts to create the user
 - Right-click on the new users account, select Properties
-  - Select ‘Member of’ tab
-  - Click ‘Add’
-  - Inside ‘Enter the object names to select’ type in “domain admins”
-  - Click ‘Check Names’, click OK.
+- Select ‘Member of’ tab
+- Click ‘Add’
+- Inside ‘Enter the object names to select’ type in “domain admins”
+- Click ‘Check Names’, click OK.
 - Log out of Domain-Controller VM and log back in with your admin user.
   - mydomain.com\<admin user>
 
@@ -236,18 +235,3 @@ Step 2: Verify User Account Creation
 - Return to Active Directory Users and Computers/mydomain.com/_EMPLOYEES and see all the additional users that have been added
   - Username:  <username>
   - Password:  Password1 (all added users from the script will have this password)
-
-<h2>At the end of this deployment, we will have:</h2>
-
-- A functioning Windows Server 2022 Domain Controller hosted in Azure.
-- Active Directory Domain Services installed and configured.
-- A new Active Directory forest and domain (mydomain.com).
-- A functioning DNS server integrated with Active Directory.
-- A Windows 11 client machine successfully joined to the domain.
-- Separate organizational units for employees and administrators.
-- A dedicated Domain Administrator account.
-- Multiple standard domain user accounts created through PowerShell.
-- Remote Desktop access configured for standard domain users.
-
-The completed environment will demonstrate how an organization can use Active Directory to centrally manage user accounts, authenticate users, organize resources, and control access to computers across a network.
-
