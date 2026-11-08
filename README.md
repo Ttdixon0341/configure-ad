@@ -233,9 +233,9 @@ Step 1: Install Active Directory Domain Services (AD DS)
 <br><br>
 
 - Keep clicking ‘Next’ until you come to Server Role
-- Select ‘Active Directory Domain Services’, select ‘Add Feaure’
-- Keep selecting ‘Next’, then ‘Install’
-- Once the installation is complete, restart DC-1 VM (like we did before with Client-1)
+- Select ‘Active Directory Domain Services’, select ‘Add Feature', hit Next
+- Select the box that says "Restart the destination server automatically if required"
+- Hit Install
 <br><br>
 <img width="1785" height="1018" alt="Screenshot 2026-11-08 114938" src="https://github.com/user-attachments/assets/8c16993a-4570-434c-bd4e-19481693ce48" />
 <br><br>
