@@ -213,9 +213,6 @@ Since the Domain Controller is also functioning as a DNS server, Client-1 needs 
 <img width="1791" height="1026" alt="Screenshot 2026-11-08 104730" src="https://github.com/user-attachments/assets/133b1ca9-fb5a-43d6-a738-09a9e2c11acf" />
 <br><br>
 
-
-<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/f79933cb-b752-4f6f-b26f-2165c8e58e94" />
-
 - Now type:  ipconfig /all
 - At the bottom it should read ‘DNS Servers. . . . .’ and show the Domain-Controller private IP address (confirming it has been changed)
 
