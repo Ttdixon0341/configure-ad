@@ -178,7 +178,7 @@ Note: This is strictly for lab testing purposes.  NEVER do this in real life.
   - Select “Apply” then “OK”
 - Repeat the process for the Private Profile and Public Profile tabs
 <br><br>
-![Uploading Screenshot 2026-11-08 101404.png…]()
+<img width="1507" height="951" alt="Screenshot 2026-11-08 101404" src="https://github.com/user-attachments/assets/fd9b399c-bf44-4be1-a2e2-a11a1f36311c" />
 <br><br>
 
 Step 3: Configure Client-1 to Use the Domain Controller as Its DNS Server
@@ -212,13 +212,14 @@ Since the Domain Controller is also functioning as a DNS server, Client-1 needs 
 - Within Client-1, click Search and type "windows powershell" and select it.
 - Type: Ping 10.0.0.4. You should get a result like this.
 <br><br>
-
+<img width="1785" height="1018" alt="Screenshot 2026-11-08 113045" src="https://github.com/user-attachments/assets/84df8f52-1d69-4d77-85cb-a66cec5bdc9e" />
 <br><br>
 
 - Now type:  ipconfig /all
-- At the bottom it should read ‘DNS Servers. . . . .’ and show the Domain-Controller private IP address (confirming it has been changed)
-
-<img width="1920" height="1080" alt="Screenshot 2026-10-30 081830" src="https://github.com/user-attachments/assets/968012cb-2a77-490b-9601-5f073086e018" />
+- At the bottom it should read ‘DNS Servers. . . . .’ and show DC-1 private IP address (confirming it has been changed)
+<br><br>
+<img width="1768" height="1031" alt="Screenshot 2026-11-08 113109" src="https://github.com/user-attachments/assets/09c58329-fd02-4f6c-8ffa-c8d2aede4e62" />
+<br><br>
 
 <h2>Phase 3: Deploy and Configure Active Directory</h2>
 
