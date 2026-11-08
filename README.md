@@ -253,7 +253,7 @@ Step 2: Promote the Server to a Domain Controller
 
 - Click “Add a new forest"
 - Root domain name:  mydomain.com, hit Next
-- Password: Root1234!, keep hitting Next, then Install
+- Password: Root1234!, keep hitting Next, then Install. The VM should automatically restart.
 <br><br>
 <img width="1792" height="1026" alt="Screenshot 2026-11-08 162034" src="https://github.com/user-attachments/assets/84c31121-9f0a-4d71-b4dd-31973dfa44d8" />
 <br><br>
@@ -264,12 +264,20 @@ Step 3: Create Organizational Units (OUs)
 - Username: mydomain.com\labuser
 - Password: Cyberlab1234
 - Go to Start/Windows Administrative Tools/Active Directory Users and Computers
-- Right click on mydomain.com/New/Organizational Unit
+<br><br>
+<img width="1021" height="902" alt="Screenshot 2026-11-08 170620" src="https://github.com/user-attachments/assets/cc086628-2c30-489a-b084-5b7a4df449f1" />
+<br><br>
 
-<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/048afeef-7ceb-47ed-8046-19644ef68e01" />
+- Right click on "mydomain.com", select "New", then "Organizational Unit"
+<br><br>
+<img width="1246" height="1028" alt="Screenshot 2026-11-08 170832" src="https://github.com/user-attachments/assets/44787012-f0e8-4cfb-8b2d-1ca9d7ed5c50" />
+<br><br>
 
-- Name:  _EMPLOYEES
+- Name:  _EMPLOYEES, hit OK
 - Create a second Organizational Unit (OU) and name it:  _ADMINS
+<br><br>
+<img width="1087" height="995" alt="Screenshot 2026-11-08 171142" src="https://github.com/user-attachments/assets/cec79e1c-ac0d-45d2-804d-a1119d250093" />
+<br><br>
 
 Step 4: Create a Domain Administrator Account
 
