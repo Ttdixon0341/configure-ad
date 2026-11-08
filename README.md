@@ -233,7 +233,7 @@ Step 1: Install Active Directory Domain Services (AD DS)
 <br><br>
 
 - Keep clicking ‘Next’ until you come to Server Role
-- Select ‘Active Directory Domain Services’, select ‘Add Feature', hit Next
+- Select ‘Active Directory Domain Services’, select ‘Add Feature', keep hitting Next
 <br><br>
 <img width="1785" height="1018" alt="Screenshot 2026-11-08 114938" src="https://github.com/user-attachments/assets/8c16993a-4570-434c-bd4e-19481693ce48" />
 <br><br>
@@ -252,21 +252,17 @@ Step 2: Promote the Server to a Domain Controller
 <br><br>
 
 - Click “Add a new forest"
-- Root domain name:  mydomain.com
-- Keep clicking next, then Install.
-- Once the installation is complete, restart DC-1 again
+- Root domain name:  mydomain.com, hit Next
+- Password: Root1234!, keep hitting Next, then Install
 <br><br>
 <img width="1792" height="1026" alt="Screenshot 2026-11-08 162034" src="https://github.com/user-attachments/assets/84c31121-9f0a-4d71-b4dd-31973dfa44d8" />
 <br><br>
 
-- Now that the Active Directory is a Domain Controller, we have to verify that we want to log in as a domain user.
-  - Username:  mydomain.com\<your user name>
-
 Step 3: Create Organizational Units (OUs)
 
-You will create a Domain Admin within the domain
-
 - Remotely log back into DC-1
+- Username: mydomain.com\labuser
+- Password: Cyberlab1234
 - Go to Start/Windows Administrative Tools/Active Directory Users and Computers
 - Right click on mydomain.com/New/Organizational Unit
 
