@@ -130,15 +130,16 @@ The Domain Controller currently uses a dynamic IP address, meaning its IP addres
 - Go to “search” and type “Virtual Machines”
 - Open DC-1 by clicking on the name
 - In the left column select Networking/Network Settings
+- Write down the private IP address
 - Click on the vNIC (arrow is pointing to it)
 <br><br>
-<img width="1465" height="927" alt="Screenshot 2026-11-08 093324" src="https://github.com/user-attachments/assets/320e7695-9920-42b7-85fa-5c39001253ac" />
+<img width="1465" height="927" alt="Screenshot 2026-11-08 093324" src="https://github.com/user-attachments/assets/b6d526e9-f086-4792-9900-52afc300246d" />
 <br><br>
 
 - At the bottom of the screen click on “ipconfig1”
-- Under Private IP address settings, select “Static”, click “Save”
+- Under Private IP address settings, select “Static”, put in the private IP address, click “Save”
 <br><br>
-<img width="1860" height="927" alt="Screenshot 2026-11-08 093632" src="https://github.com/user-attachments/assets/fbfae0f4-9434-42e7-b1c1-7ef096e14019" />
+<img width="1860" height="927" alt="Screenshot 2026-11-08 093632" src="https://github.com/user-attachments/assets/5e9ca02e-a982-443f-ae71-bd62e99f0698" />
 <br><br>
 
 Step 2: Temporarily Disable Windows Firewall on the Domain Controller
