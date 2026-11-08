@@ -147,7 +147,13 @@ We will temporarily disable Windows Firewall on the virtual machine to simplify 
 
 Note: This is strictly for lab testing purposes.  NEVER do this in real life.
 
-- Click Search and type "Remote Desktop Connection". Click on it.
+- Go to “search” and type “Virtual Machines”
+- Write down DC-1 Public IP address
+<br><br>
+<img width="1920" height="870" alt="Screenshot 2026-11-08 094951" src="https://github.com/user-attachments/assets/f0a79b11-6980-4236-be9c-d0662f2ed339" />
+<br><br>
+
+- On your computer (not in Azure), Click Search and type "Remote Desktop Connection". Click on it.
 <br><br>
 <img width="1035" height="972" alt="Screenshot 2026-11-08 094610" src="https://github.com/user-attachments/assets/f2ecf774-290f-40e5-9eed-779f809e812a" />
 <br><br>
