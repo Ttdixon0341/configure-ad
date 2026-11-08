@@ -67,7 +67,7 @@ Step 2:  Create a Virtual Network and Subnet.
   - Virtual network name*:  Active-Directory-Vnet
 - Select “Review & Create”, then “Create”
 <br><br>
-<img width="975" height="495" alt="image" src="https://github.com/user-attachments/assets/54fe2d77-3445-46c3-b846-01b0f2d395fc" />
+<img width="1031" height="925" alt="Screenshot 2026-11-08 083022" src="https://github.com/user-attachments/assets/d8e233e5-2c64-467e-9133-6d5375777f06" />
 <br><br>
 Step 3:  Create the Domain Controller VM
 
