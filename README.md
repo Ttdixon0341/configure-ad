@@ -174,10 +174,11 @@ Note: This is strictly for lab testing purposes.  NEVER do this in real life.
 
 - Within DC-1 Virtual Machine, Right-click the Start Menu, select ‘Run’ and type “wf.msc”. Hit OK
 - Click on “Windows Defender Firewall Properties”
-  - Firewall state:  OFF
+- In the Domain Profile tab, turn the Firewall state to OFF.
   - Select “Apply” then “OK”
+- Repeat the process for the Private Profile and Public Profile tabs
 <br><br>
-<img width="1507" height="951" alt="Screenshot 2026-11-08 101404" src="https://github.com/user-attachments/assets/d00b65bc-8358-47fe-9bc7-be3ea331938a" />
+![Uploading Screenshot 2026-11-08 101404.png…]()
 <br><br>
 
 Step 3: Configure Client-1 to Use the Domain Controller as Its DNS Server
