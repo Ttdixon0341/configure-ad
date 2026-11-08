@@ -235,14 +235,14 @@ Step 1: Install Active Directory Domain Services (AD DS)
 - Keep clicking ‘Next’ until you come to Server Role
 - Select ‘Active Directory Domain Services’, select ‘Add Feaure’
 - Keep selecting ‘Next’, then ‘Install’
-- Once the installation is complete, restart DC-1
+- Once the installation is complete, restart DC-1 VM (like we did before with Client-1)
 <br><br>
 <img width="1785" height="1018" alt="Screenshot 2026-11-08 114938" src="https://github.com/user-attachments/assets/8c16993a-4570-434c-bd4e-19481693ce48" />
 <br><br>
 
 Step 2: Promote the Server to a Domain Controller
 
-- Inside of DC-1 VM, return to the Server Manager.  In the upper-right corner will be a flag.  Select it.  Click on “Promote this server to a domain controller”
+- Remotely log back into DC-1, and return to the Server Manager.  In the upper-right corner will be a flag.  Select it.  Click on “Promote this server to a domain controller”
 <br><br>
 <img width="1792" height="1026" alt="Screenshot 2026-11-08 161316" src="https://github.com/user-attachments/assets/16c9c10f-3c93-409f-b641-a550bb1abfff" />
 <br><br>
@@ -250,15 +250,19 @@ Step 2: Promote the Server to a Domain Controller
 - Click “Add a new forest"
 - Root domain name:  mydomain.com
 - Keep clicking next, then Install.
-- Restart Domain-Controller VM
-- Now that the AD is a DC, we have to verify that we want to log in as a domain user.
+- Once the installation is complete, restart DC-1 again
+<br><br>
+<img width="1792" height="1026" alt="Screenshot 2026-11-08 162034" src="https://github.com/user-attachments/assets/84c31121-9f0a-4d71-b4dd-31973dfa44d8" />
+<br><br>
+
+- Now that the Active Directory is a Domain Controller, we have to verify that we want to log in as a domain user.
   - Username:  mydomain.com\<your user name>
 
 Step 3: Create Organizational Units (OUs)
 
 You will create a Domain Admin within the domain
 
-- Return to Domain-Controller VMm
+- Remotely log back into DC-1
 - Go to Start/Windows Administrative Tools/Active Directory Users and Computers
 - Right click on mydomain.com/New/Organizational Unit
 
