@@ -137,6 +137,9 @@ The Domain Controller currently uses a dynamic IP address, meaning its IP addres
 
 - At the bottom of the screen click on “ipconfig1”
 - Under Private IP address settings, select “Static”, click “Save”
+<br><br>
+<img width="1860" height="927" alt="Screenshot 2026-11-08 093632" src="https://github.com/user-attachments/assets/fbfae0f4-9434-42e7-b1c1-7ef096e14019" />
+<br><br>
 
 Step 2: Temporarily Disable Windows Firewall on the Domain Controller
 
