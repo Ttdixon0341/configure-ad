@@ -69,14 +69,18 @@ Step 2:  Create a Virtual Network and Subnet.
 <br><br>
 <img width="1031" height="925" alt="Screenshot 2026-11-08 083022" src="https://github.com/user-attachments/assets/d8e233e5-2c64-467e-9133-6d5375777f06" />
 <br><br>
-Step 3:  Create the Domain Controller VM
+Step 3:  Create the Domain Controller Virtual Machine
 
 - Go to “search” and type “Virtual Machines”
+- Click "+Create" and select "Virtual Machine"
   - Resource group*:  Active-Directory
-  - Virtual machine name*:  Domain-Controller
+  - Virtual machine name*:  DC-1
   - Region*:  (US) East US (must be the same Region as your virtual network)
   - Image*:  Windows Server 2022 Datacenter: Azure Edition Hotpatch
     - (you might have to change the Size* choose anything with 2 vcpus)
+<br><br>
+<img width="1020" height="877" alt="Screenshot 2026-11-08 084126" src="https://github.com/user-attachments/assets/07e95f09-0a50-4b5b-9f2f-3b546176a55b" />
+<br><br>
   - Select a Username and Password
   - Select the check boxes at the bottom, then select “Next” TWICE (going to Networking tab)
   - Virtual Network*:  Active-Directory-Vnet
