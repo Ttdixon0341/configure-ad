@@ -309,10 +309,13 @@ Step 4: Create a Domain Administrator Account
 - Select ‘Member of’ tab
 - Click ‘Add’
 - Inside ‘Enter the object names to select’ type in “domain admins”
-- Click ‘Check Names’, click OK.
+- Click ‘Check Names’, click OK, Apply then OK again.
 - Log out of DC-1 and log back in with your admin user.
 - Username: mydomain.com\jane_admin
 - Password: Cyberlab1234
+<br><br>
+<img width="1572" height="1040" alt="Screenshot 2026-11-11 103336" src="https://github.com/user-attachments/assets/2dfa5284-c202-4e55-ba99-50fddfed2dd0" />
+<br><br>
 
 <h2>Phase 4: Join Client-1 to the Domain</h2>
 
