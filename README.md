@@ -301,7 +301,7 @@ Step 4: Create a Domain Administrator Account
 <img width="1198" height="1011" alt="Screenshot 2026-11-11 102648" src="https://github.com/user-attachments/assets/a079ac38-5a70-45bf-adc5-d4276d3457d6" />
 <br><br>
   
-- Right-click on the new users account, select Properties
+- Right-click on the Jane Doe account, select Properties
 <br><br>
 <img width="1242" height="1012" alt="Screenshot 2026-11-11 103051" src="https://github.com/user-attachments/assets/3957a248-93a7-4e41-85ef-44882c2190e1" />
 <br><br>
@@ -324,18 +324,27 @@ Joining Client-1 to the domain allows domain user accounts to authenticate and a
 Step 1: Join Client-1 to the Active Directory Domain
 
 - Log into Client-1 VM
+- User: labuser
+- Password: Cyberlab1234
 - Right-click Start/System
 - Scroll down and select ‘Domain or Workgroup’
+<br><br>
+<img width="1581" height="998" alt="Screenshot 2026-11-11 105041" src="https://github.com/user-attachments/assets/3b0e5d17-553e-4db9-84e0-d4252d88a12e" />
+<br><br>
+
 - Under ‘Computer Name’ tab click ‘Change’
 - Select ‘Domain’ and change the name to ‘mydomain.com’, hit OK
+<br><br>
+<img width="1661" height="998" alt="Screenshot 2026-11-11 105335" src="https://github.com/user-attachments/assets/91cc7db8-680f-419a-8fd8-58da808d1779" />
+<br><br>
 
-(Because only an admin users can make these changes, use your new admin user to authorize these changes)
+(Because only an admin user can make these changes, a prompt will pop up asking for permission. Use jane_admin user to authorize these changes)
 
 Step 2: Configure Remote Desktop Access for Domain Users
 
 - Log into Client-1 as your admin user
 - Right-click Start/System
-- Scroll down, select ‘Remove Desktop’, then ‘Desktop Users’
+- Scroll down, select ‘Remote Desktop’, then ‘Desktop Users’
 - Click ‘Add’.  type: “domain users”. Click ‘Check Names’, click OK
 
 (Normally you’d want to do this with Group Policy that allows you to change many systems at once)
