@@ -281,14 +281,38 @@ Step 3: Create Organizational Units (OUs)
 
 Step 4: Create a Domain Administrator Account
 
-- Right-click _ADMINS/New/User and follow the prompts to create the user
+- Right-click _ADMINS/New/User
+<br><br>
+<img width="1288" height="1012" alt="Screenshot 2026-11-11 101817" src="https://github.com/user-attachments/assets/f90efa97-3b78-485a-93d1-2a7e96afab54" />
+<br><br>
+
+- First name: Jane
+- Last name: Doe
+- User logon name: jane_admin
+- Click Next
+<br><br>
+<img width="1362" height="993" alt="Screenshot 2026-11-11 102322" src="https://github.com/user-attachments/assets/a7b7fb93-4784-4774-8550-119e7874fb36" />
+<br><br>
+
+- Password: Cyberlab1234
+- Deselect "User must change password at next logon" (for training purposes only)
+- Click Next then Finish
+<br><br>
+<img width="1198" height="1011" alt="Screenshot 2026-11-11 102648" src="https://github.com/user-attachments/assets/a079ac38-5a70-45bf-adc5-d4276d3457d6" />
+<br><br>
+  
 - Right-click on the new users account, select Properties
+<br><br>
+<img width="1242" height="1012" alt="Screenshot 2026-11-11 103051" src="https://github.com/user-attachments/assets/3957a248-93a7-4e41-85ef-44882c2190e1" />
+<br><br>
+
 - Select ‘Member of’ tab
 - Click ‘Add’
 - Inside ‘Enter the object names to select’ type in “domain admins”
 - Click ‘Check Names’, click OK.
-- Log out of Domain-Controller VM and log back in with your admin user.
-  - mydomain.com\<admin user>
+- Log out of DC-1 and log back in with your admin user.
+- Username: mydomain.com\jane_admin
+- Password: Cyberlab1234
 
 <h2>Phase 4: Join Client-1 to the Domain</h2>
 
