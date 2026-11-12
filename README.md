@@ -344,8 +344,15 @@ Step 2: Configure Remote Desktop Access for Domain Users
 
 - Log into Client-1 as your admin user
 - Right-click Start/System
-- Scroll down, select ‘Remote Desktop’, then ‘Desktop Users’
-- Click ‘Add’.  type: “domain users”. Click ‘Check Names’, click OK
+- Scroll down, select ‘Remote Desktop’, then ‘Remote Desktop Users’
+<br><br>
+<img width="1517" height="1023" alt="Screenshot 2026-11-12 095504" src="https://github.com/user-attachments/assets/b677be50-10e1-424b-8f63-cccf66add592" />
+<br><br>
+
+- Click ‘Add’.  In the field "Enter the object names to select" type: “domain users”. Click ‘Check Names’, click OK
+<br><br>
+<img width="1687" height="1017" alt="Screenshot 2026-11-12 095845" src="https://github.com/user-attachments/assets/d017c7c3-65f4-4de0-8ce3-7f5a1a81cdfc" />
+<br><br>
 
 (Normally you’d want to do this with Group Policy that allows you to change many systems at once)
 
