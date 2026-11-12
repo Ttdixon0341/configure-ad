@@ -371,7 +371,7 @@ Step 1: Create Multiple Domain User Accounts Using PowerShell
 <img width="1818" height="1012" alt="Screenshot 2026-11-12 101204" src="https://github.com/user-attachments/assets/ef1cb42e-c9ca-4b3e-9b5f-342ee8274534" />
 <br><br>
 
-## Powershell Script(./Create-ADUsers.ps1)
+(./Create-ADUsers.ps1)
 
 Step 2: Verify User Account Creation
 
