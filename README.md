@@ -366,12 +366,16 @@ Step 1: Create Multiple Domain User Accounts Using PowerShell
 <img width="1220" height="1020" alt="Screenshot 2026-11-12 100715" src="https://github.com/user-attachments/assets/d275d27d-f381-414f-b360-740faea2d274" />
 <br><br>
 
-- In the upper/right corner of Powershell ISE you'll see "Script" with a down arrow. Click the down arrow, paste the script and run it.
+- In the upper/right corner of Powershell ISE you'll see "Script" with a down arrow. Click the down arrow.
 <br><br>
 <img width="1818" height="1012" alt="Screenshot 2026-11-12 101204" src="https://github.com/user-attachments/assets/ef1cb42e-c9ca-4b3e-9b5f-342ee8274534" />
 <br><br>
 
-(./Create-ADUsers.ps1)
+- Click on this [Script](./Create-ADUsers.ps1) and copy it
+- Paste the script into Powershell ISE and run the script (the green arrow).
+<br><br>
+<img width="1811" height="996" alt="Screenshot 2026-11-12 104009" src="https://github.com/user-attachments/assets/7c7b2fe9-4032-4d92-b7cb-2fb0c9980cbd" />
+<br><br>
 
 Step 2: Verify User Account Creation
 
