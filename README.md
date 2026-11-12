@@ -380,5 +380,8 @@ Step 1: Create Multiple Domain User Accounts Using PowerShell
 Step 2: Verify User Account Creation
 
 - Return to Active Directory Users and Computers/mydomain.com/_EMPLOYEES and see all the additional users that have been added
-  - Username:  <username>
+  - Username:  All user names will be in the _EMPLOYEES file
   - Password:  Password1 (all added users from the script will have this password)
+<br><br>
+<img width="1296" height="1063" alt="Screenshot 2026-11-12 104622" src="https://github.com/user-attachments/assets/4ee62721-3bed-4613-9959-69860ee7c216" />
+
