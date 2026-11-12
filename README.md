@@ -354,17 +354,24 @@ Step 2: Configure Remote Desktop Access for Domain Users
 <img width="1687" height="1017" alt="Screenshot 2026-11-12 095845" src="https://github.com/user-attachments/assets/d017c7c3-65f4-4de0-8ce3-7f5a1a81cdfc" />
 <br><br>
 
-(Normally you’d want to do this with Group Policy that allows you to change many systems at once)
+NOTE: Normally you’d want to do this with Group Policy that allows you to change many systems at once
 
 <h2>Phase 5: Create and Manage Domain User Accounts</h2>
 
 Step 1: Create Multiple Domain User Accounts Using PowerShell
 
-- Log into Domain-Controller as a user admin
-- Open Powershell ISE as an administrator
-- Paste Script into Powershell ISE and run the script
+- Log into DC-1 as the admin user
+- Left-click Start and type "Powershell ISE". Right-click Powershell ISE and select "Run as Administrator"
+<br><br>
+<img width="1220" height="1020" alt="Screenshot 2026-11-12 100715" src="https://github.com/user-attachments/assets/d275d27d-f381-414f-b360-740faea2d274" />
+<br><br>
 
-<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/13805173-ce59-40e4-a4d6-c4cdf144e9e2" />
+- In the upper/right corner of Powershell ISE you'll see "Script" with a down arrow. Click the down arrow, paste the script and run it.
+<br><br>
+<img width="1818" height="1012" alt="Screenshot 2026-11-12 101204" src="https://github.com/user-attachments/assets/ef1cb42e-c9ca-4b3e-9b5f-342ee8274534" />
+<br><br>
+
+Note: The Powershell script is not included in this project
 
 Step 2: Verify User Account Creation
 
