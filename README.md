@@ -232,7 +232,7 @@ Step 1: Install Active Directory Domain Services (AD DS)
 <br><br>
 
 - Keep clicking ‘Next’ until you come to Server Role
-- Select ‘Active Directory Domain Services’, select ‘Add Feature', keep hitting Next
+- Select ‘Active Directory Domain Services’, select ‘Add Feature', keep hitting Next until you come to Confirmation.
 <br><br>
 <img width="1785" height="1018" alt="Screenshot 2026-11-08 114938" src="https://github.com/user-attachments/assets/8c16993a-4570-434c-bd4e-19481693ce48" />
 <br><br>
