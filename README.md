@@ -210,7 +210,7 @@ Since the Domain Controller is also functioning as a DNS server, Client-1 needs 
 
 - Return to the Remote Desktop Connection (or RDP) and log into to Client-1.
 - Within Client-1, click Search and type "windows powershell" and select it.
-- Type: Ping 10.0.0.4. You should get a result like this.
+- Type: Ping 10.0.0.4
 <br><br>
 <img width="1785" height="1018" alt="Screenshot 2026-11-08 113045" src="https://github.com/user-attachments/assets/84df8f52-1d69-4d77-85cb-a66cec5bdc9e" />
 <br><br>
