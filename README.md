@@ -165,8 +165,8 @@ Note: This is strictly for lab testing purposes.  NEVER do this in real life.
 <br><br>
 
 - Click on "More choices", select "Use a different Account"
-- Username: labuser (or whatever you want to use)
-- Password: Cyberlab1234 (or whatever you want to use)
+  - Username: labuser (or whatever you want to use)
+  - Password: Cyberlab1234 (or whatever you want to use)
 - Hit OK
 <br><br>
 <img width="1231" height="916" alt="Screenshot 2026-11-08 100121" src="https://github.com/user-attachments/assets/3d8cfb59-2998-4e0e-a22a-c4b5c64c1696" />
@@ -260,8 +260,8 @@ Step 2: Promote the Server to a Domain Controller
 Step 3: Create Organizational Units (OUs)
 
 - Remotely log back into DC-1
-- Username: mydomain.com\labuser
-- Password: Cyberlab1234
+  - Username: mydomain.com\labuser
+  - Password: Cyberlab1234
 - Go to Start/Windows Administrative Tools/Active Directory Users and Computers
 <br><br>
 <img width="1021" height="902" alt="Screenshot 2026-11-08 170620" src="https://github.com/user-attachments/assets/cc086628-2c30-489a-b084-5b7a4df449f1" />
@@ -310,8 +310,8 @@ Step 4: Create a Domain Administrator Account
 - Inside ‘Enter the object names to select’ type in “domain admins”
 - Click ‘Check Names’, click OK, Apply then OK again.
 - Log out of DC-1 and log back in with your admin user.
-- Username: mydomain.com\jane_admin
-- Password: Cyberlab1234
+  - Username: mydomain.com\jane_admin
+  - Password: Cyberlab1234
 <br><br>
 <img width="1572" height="1040" alt="Screenshot 2026-11-11 103336" src="https://github.com/user-attachments/assets/2dfa5284-c202-4e55-ba99-50fddfed2dd0" />
 <br><br>
@@ -323,8 +323,8 @@ Joining Client-1 to the domain allows domain user accounts to authenticate and a
 Step 1: Join Client-1 to the Active Directory Domain
 
 - Log into Client-1 VM
-- User: labuser
-- Password: Cyberlab1234
+  - User: labuser
+  - Password: Cyberlab1234
 - Right-click Start/System
 - Scroll down and select ‘Domain or Workgroup’
 <br><br>
