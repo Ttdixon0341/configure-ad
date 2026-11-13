@@ -226,7 +226,7 @@ Since the Domain Controller is also functioning as a DNS server, Client-1 needs 
 Step 1: Install Active Directory Domain Services (AD DS)
 
 - Remotely log into DC-1
-- Within Server Manager” click “Add Roles and Features”
+- Within Server Manager click “Add Roles and Features”
 <br><br>
 <img width="1783" height="1018" alt="Screenshot 2026-11-08 114616" src="https://github.com/user-attachments/assets/a775a0f3-88b4-4ca7-aa51-22ceb950fe80" />
 <br><br>
